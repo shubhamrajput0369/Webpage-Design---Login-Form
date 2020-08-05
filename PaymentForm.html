@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form 2</title>
+    </head>
+    
+    <body>
+        <h1>Required Credentials For Payment :</h1>
+                
+        <form method="get">
+            
+            <lable for="name"><strong>Name:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="text" name="name" placeholder=Name size="20px" maxlength="30" id="name">
+            
+            <br><br>
+            
+            <lable for="address"><strong>Address:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="text" name=address placeholder=Address size="20px" maxlength="150" id="address">
+            
+            <br><br>
+            <lable for="pn"><strong>Phone Number:</strong></lable>
+            <input type="text" name="phone number" placeholder="Phone Number">
+            <br><br>
+        
+            <lable for="postcode"><strong>Postcode:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="text" name="postcode" placeholder="Postcode" maxlength="20" size="20px" id="postcode">
+            
+            <br><br>
+            
+            <lable for="city"><strong>City:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="text" name="city" placeholder="City" maxlength="20" size="20px" id="city">
+            
+            <br>
+            
+            <p><strong>Select Delievery Service:</strong></p>
+            <select name="shipping" id="shipping">
+            <option value="Choose Option">Choose Option</option>
+                
+            <option value="Superfast Delievery Service">Superfast Delievery Service</option>
+            
+            <option value="Two-Day Delievery Service">Two-Day Delievery Service</option>
+            
+            <option value="Three-Day Delievery Service">Three-Day Delievery Service</option>
+            </select>
+            <br>
+            
+            <p><strong>Select Payment Service:</strong></p>
+            
+            <lable><input type=radio name="payment" value="debit card">
+            Debit Card</lable>
+            
+            &nbsp; &nbsp; &nbsp;
+            
+            <lable><input type="radio" name="payment" value="master card">
+            Master Card</lable>
+            
+            &nbsp; &nbsp; &nbsp;
+            
+            <lable><input type="radio" name="payment" value="bhim pay">
+            Bhim Pay</lable>
+            
+            <br><br>
+            
+            <lable for="acc_num"><strong>Account Number:</strong></lable>
+            <input type="text" name="account number" placeholder="Account Number" maxlength="20" size="30px" id="acc_num">
+            
+            <br><br>
+            
+            <lable for="cvv"><strong>CVV:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type=text name="cvv" placeholder="CVV" maxlength="5" size="5px" id="cvv">
+            
+            <br><br>
+            
+            <lable for="atp"><strong>Amount to Pay:</strong>&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="text" name="amount_to_pay" placeholder="Amount" maxlength="20"  id="atp">
+            
+            <br><br>
+            <lable for="comments"><strong>Comments:</strong></lable>
+            <br>
+            <textarea rows="5" cols="46" name="comments" id="comments"></textarea>
+            
+            <br><br>
+            
+            <input type="checkbox" name="terms_and_condition" id="tc">
+            <lable for="tc"><i>By clicking on "PAY" button it reflects that, I accepted all terms and conditions required by this form.</i></lable>
+            
+            <br><br>
+            
+            <input type="submit" value="PAY">
+        </form>
+    </body>
+</html>
